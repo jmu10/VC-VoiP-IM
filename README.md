@@ -4,10 +4,15 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 
 ## Index
 
-* [VoIP VC and IM Protocols](#voip-vc-and-im-protocols)
-* [SIP Standard Specifications](#sip-standard-specifications)
+* [VoIP IM VC Protocols](#voip-im-vc-protocols)
+* [Compression Codecs](#compression-codecs)
+  * [Speech Compression Codecs](#speech-compression-codecs)
+  * [Video Compression Codecs](#video-compression-codecs)
+* [Standard Specifications](#sip-standard-specifications)
   * [SIP Core](#sip-core)
   * [SDP](#sdp)
+  * [H.323](#h.323)
+  * [XMPP](#xmpp)
 * [Online Tutorials](#online-voip-tutorials)
 * [Books](#books)
 * [Network Tools](#network-tools)
@@ -29,21 +34,89 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 * [VoIP Forums and Sites](#voip-forums-and-sites)
 * [RTC Events](#rtc-events)
 
-## VoIP VC and IM Protocols
+## VoIP IM VC Protocols
 
-* [H.323]
-* [IAX2]
-* [Jingle]
-* [MeGaCo]
-* [MGCP]
-* [MSRP]
-* [SCCP]
-* [SIP]
-* [SIP/SIMPLE]
-* [XCAP]
-* [XMPP/Jabber]
+* Dundi 
+  * Voip routping protocol
+  * UDP port 4520
+* H.323
+  * Voip signalling protocol
+* IAX2
+  * UDP port 4569
+* Jingle
+* MeGaCo
+  * Voip signalling protocol
+* MGCP
+  * Voip signalling protocol
+* MSRP
+* RTP
+* RTCP
+* SCCP
+* SDP
+* SIP
+  * Voip signalling protocol
+  * UDP port 5060
+  * TCP port 5060 (optional)
+  * TCP port 5061 (optional secure TLS)
+* SIP/SIMPLE
+* STUN
+* TURN
+* XCAP
+* XMPP/Jabber
+  * TCP port 5222 (client connection)
+  * SRV resource record example: _xmpp-client._tcp.example.net. 86400 IN SRV 5 0 5222 xmpp.example.net.
+  * TCP port 5223 (optional secure TLS connection)
+  * TCP port 5269 (server connection)
+  * SRV resource record example: _xmpp-server._tcp.example.net. 86400 IN SRV 5 0 5269 xmpp.example.net.
 
-## SIP Standard Specifications
+## Compression Codecs
+
+### Speech Compression Codecs
+
+* ADPCM
+* AMR
+  * NB Narrow Band
+  * WB Wide Band
+* G.711 a-law
+  * IDSN codec
+  * Used in Europe
+* G.711 u-law
+  * IDSN codec
+  * Used in North America
+* G.719
+* G.722
+  * HD
+* G.722.1 Siren7
+* G.722.1C Siren14
+* G.722.2
+* G.723.1
+* G.726
+* G.726 AAL2
+* G.729A
+* GSM
+* iLBC
+* LPC-10
+* Silk
+* SpeeX
+  * 4-48 kbps
+* Signed Linear PCM
+* Ogg Vorbis
+* Opus
+* WAV (SLIN)
+* WAV (GSM)
+
+### Video Compression Codecs
+
+* H.263
+* H.263p
+* H.264
+  * MPEG-4 AVC
+* H.265
+  * MPEG-H Part-2
+* VP8
+* VP9
+
+## Standard Specifications
 
 ### SIP Core
 
@@ -56,6 +129,19 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 
 * [RFC4566](http://tools.ietf.org/html/rfc4566) : SDP: Session Description Protocol (obsoleted)
 * [RFC3264](http://tools.ietf.org/html/rfc3264) : An Offer/Answer Model with the Session Description Protocol (SDP)
+
+### H.323
+
+* [RFC3508](https://tools.ietf.org/html/rfc3508) : H.323 Uniform Resource Locator (URL) Scheme Registration
+* [RFC4123](https://tools.ietf.org/html/rfc4123) : Session Initiation Protocol (SIP)-H.323 Interworking Requirements
+
+### XMPP
+
+* RFC6120
+
+### Codecs
+
+* [RFC6386](https://tools.ietf.org/html/rfc6386) : VP8 Data Format and Decoding Guide
 
 ## Online VoIP Tutorials
 
@@ -101,6 +187,7 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 * [ReSIProcate](http://www.resiprocate.org)
 * [Mobicents](http://www.mobicents.org/)
 * [MyVoipipp MiniSIPServer](https://www.myvoipapp.com/download)
+* [YXA](https://www.stacken.kth.se/project/yxa/index.html)(Legacy | Linux | SIP)
 
 ## SIP RTP Relay
 
