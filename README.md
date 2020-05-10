@@ -1,31 +1,46 @@
 # SIP Resources
 
-A listing with some useful Video Conference and VoIP resources.
+A listing with some useful Video Conference, messaging and VoIP resources.
 
 ## Index
 
-* [Standard Specifications](#standard-specifications)
+* [VoIP Protocols]
+* [SIP Standard Specifications](#standard-specifications)
   * [SIP Core](#sip-core)
   * [SDP](#sdp)
 * [Online Tutorials](#online-tutorials)
 * [Books](#books)
 * [Network Tools](#network-tools)
-* [SIP Servers](#sip-servers)
+* [SIP Servers](#vos-sip-servers)
+* [RTP Relay](#rtp-relay)
 * [H.323 Servers](#h323-servers)
-* [Vanilla IP PBX Systems](#v-ip-pbx)
-* [IP PBX GUI Web Interfaces[(#ip-pbx-gui)
-* [Non-Vanilla IP PBX Systems](#nv-ip-pbx)
+* [Medial Servers](#media-servers)
+* [IP PBX Software](#v-ip-pbx)
+* [IP PBX GUI Web Interfaces](#ip-pbx-gui)
 * [RTP Relay](rtp-relay)
 * [Command Line Tools](#command-line-tools)
-* [Open Source Softphones](#os-softphones)
-* [Closed Source Softphones](#cs-softphones)
+* [Softphones](#softphones)
 * [Hardphone Brands](#hp-brands)
-* [IP PBX Harrdware)(#ip-ipx-hardware)
-* [VoIP Libraries](#voip-libraries)
+* [IP PBX Harrdware Brands](#ip-ipx-hardware)
+* [Open Source VoIP Libraries](voip-libraries)
 * [VoIP Forums](#voip-forums)
 * [RTC Events](#rtc-events)
 
-## Standard Specifications
+## VoIP and Messaging Protocols
+
+* [H.323]
+* [IAX2]
+* [Jingle]
+* [MeGaCo]
+* [MGCP]
+* [MSRP]
+* [SCCP]
+* [SIP]
+* [SIP/SIMPLE]
+* [XCAP]
+* [XMPP/Jabber]
+
+## SIP Standard Specifications
 
 ### SIP Core
 
@@ -39,9 +54,8 @@ A listing with some useful Video Conference and VoIP resources.
 * [RFC4566](http://tools.ietf.org/html/rfc4566) : SDP: Session Description Protocol (obsoleted)
 * [RFC3264](http://tools.ietf.org/html/rfc3264) : An Offer/Answer Model with the Session Description Protocol (SDP)
 
-## Online Tutorials
+## Online VoIP Tutorials
 
-* [Basic SIP Tutorial](http://code2compile.com/Basic-SIP-Tutorial.php)
 * [ColumbiaEdu - SIP Tutorial](http://www.cs.columbia.edu/~hgs/teaching/ais/slides/2003/sip_long.pdf)
 * [CornellEdu - Understanding SIP](http://www.cs.cornell.edu/courses/cs619/2004fa/documents/siptutorial.pdf)
 * [JDRosen.net - Tutorials](http://www.jdrosen.net/tutorials.html)
@@ -51,6 +65,14 @@ A listing with some useful Video Conference and VoIP resources.
 * [TutorialsPoint - SIP](http://www.tutorialspoint.com/session_initiation_protocol/index.htm)
 * [VoIPMechanic - SIP Basics](http://www.voipmechanic.com/sip-basics.htm)
 * [VoIP Protocols: Introducing SIP](http://toncar.cz/Tutorials/VoIP/VoIP_Protocols_Introducing_SIP.html)
+* [Terena Sip Tutorial](https://www.terena.org/activities/tf-vvc/voip-wsh/SIP-tutorial.pdf)
+* [Oracle Sip Tutorial](https://docs.oracle.com/cd/E19355-01/820-3007/gflsc/index.html)
+* [Startrinity SIP Articles](http://startrinity.com/VoIP/Resources/SipArticlesAndTutorials.aspx)
+* [Wisdomjobs SIP Tutorial](https://www.wisdomjobs.com/e-university/sip-tutorial-2185.html)
+* [MIT SIP Basics](https://web.mit.edu/sip/presentations/np119.pdf)
+* [Leonid SIP Tutorial](http://www.osslab.tw/@api/deki/files/4096/=sip.pdf)
+* [Aarnet SIP Tutorial](http://help.aarenet.com/wiki/Support_voip_protocol)
+* [Independentsoft](https://www.independentsoft.de/sip/tutorial/index.html)
 
 ## Books
 
@@ -72,34 +94,45 @@ A listing with some useful Video Conference and VoIP resources.
 ## SIP Servers
 
 * [Kamailio](http://www.kamailio.org)
-* [Opensips.org](https://www.opensips.org)
-* [Mobicents](http://www.mobicents.org/)
+* [Opensips](https://www.opensips.org)
 * [ReSIProcate](http://www.resiprocate.org)
-* [SEMS](https://github.com/sems-server/sems)
+* [Mobicents](http://www.mobicents.org/)
+* [MyVoipipp MiniSIPServer](https://www.myvoipapp.com/download)
+
+## SIP RTP Relay
+
+* [RTP Proxy]
+* [RTP Engine]
+* [Media Proxy]
 
 ## H.323 Servers
 
 * [GnuGK](http://www.gnugk.org)
 
-## Vanilla IP IPX Systems
+## Media Servers
+
+* [SEMS](https://github.com/sems-server/sems)
+
+## IP IPX Software
 
 * [Asterisk](http://www.asterisk.org)
 * [FreeSwitch](http://www.freeswitch.org)
 * [Yate](https://www.yate.ro)
-
-## IP PBX GUI Web Interfaces
-
-* FreePBX
-
-## Non-Vanilla IP PBX Systems
-
 * FusionPBX
 * Bicom Systems
 * Elastix
 * Enswitch
 * Kazoo
+* OfficeSIP
+* PCBest Networks SIP PBX
 * Pascom MobyDick
 * Thirdlane
+* Yeastar
+
+## IP PBX GUI Web Interfaces
+
+* FreePBX
+* Asterisk GUI
 
 ## Command Line Tools
 
@@ -107,60 +140,61 @@ A listing with some useful Video Conference and VoIP resources.
 * sipp
 * sipsak
 
-## Open Source Softphones
+## Softphones
 
-* Blink (SIP | Windows, MacOS, Linux)
-* CSIPSimple (SIP | Android)
-* Ekiga
-* Empathy
-* Jitsi (SIP)
-* KPhone
-* Linphone
-* Microsip
-* QjSimple
-* QuteCom
-* SFLphone
-* SIPDroid
-* Telephone
-* Twinkle (SIP)
-* Twinkle (legacy, SIP)
-* Yate (SIP, H.323, IAX2, XMPP)
-
-## Closed Source Softphones
-
+* Blink (Windows, MacOS, Linux | SIP, MSRP, XCAP)
+* CSIPSimple (Android | SIP)
+* Ekiga (Windows, Linux | SIP, H.323)
+* Jitsi (Windows, Linux | SIP, XMPP)
+* Linphone (Windows, Linux | SIP)
+* Microsip (Windows | SIP)
+* Twinkle (Linux | SIP)
+* Twinkle (legacy | Windows | SIP)
+* wxCommunicator (Winodws | SIP)
+* Yate Client (Windows | SIP, H.323, IAX2, XMPP)
 * 3CX Phone (Windows | SIP)
-* Counterpath Bria (Winodws | SIP)
-* Zoiper3 (SIP, IAX2, XMPP)
+* Counterpath Bria (Winodws | SIP, XMPP)
+* Mizu Voip (Windows | SIP)
+* OfficeSIP (Windows | SIP)
+* Polycom RealPresence Desktop (Windows | SIP, H.323)
+* Polycom Telepresence m100 (Legacy | Windows | SIP, H.323)
+* Polycom PVX (Legacy | Windows | SIP, H.323)
+* SNOM 360 (Windows | SIP)
+* Yealink Desktop VC (Windows | SIP, H.323)
+* Zoiper3 (Legacy | Windows | SIP, IAX2, XMPP)
 * Zoiper5 (Windows, Android | SIP, IAX2, XMPP)
-* Polycom RealPresence Desktop (SIP, H.323)
-* Polycom Telepresence m100 (Legacy, SIP, H.323)
-* Polycom PVX (Legacy, SIP, H.323)
-* Yealink Desktop VC (SIP, H.323)
 
 ## Hardphone Brands
 
 * Avaya
 * Cisco/Linksys
 * Digium
+* Elmeg
+* Fanvil
 * Gigaset/Siemens
 * Grandstream
+* HTEK
+* Huawei
+* Innovaphone
+* Mitel/Aastra
 * Obihai
 * Panasonic
 * Polycom
-* Mitel/Aastra
+* Stentofon
 * Snom
 * Tiptel
 * Ubiquiti
 * Yealink
-* Yeastar
 
-## IP PBX Hardware
+## IP PBX Hardware Brands
 
+* Atcomm
 * Avaya (SIP, H.323)
 * Cisco (SIP, H.323)
 * Digium (SIP, H.323)
 * Gigaset/Siemens (SIP)
 * Grandstream (SIP, H.323)
+* Yeastar
 
 ## VoIP Libraries
 
@@ -171,6 +205,7 @@ A listing with some useful Video Conference and VoIP resources.
 * JsSIP (SIP)
 * MjSIP (SIP)
 * oSIP (SIP)
+* Ozeki (SIP)
 * PjSIP (SIP)
 * ReSIProcate (SIP)
 * SofiaSIP (SIP)
