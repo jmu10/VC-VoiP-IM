@@ -18,6 +18,7 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 * [Network Tools](#network-tools)
 * [SIP Servers](#sip-servers)
 * [RTP Relay](#sip-rtp-relay)
+* [STUN and TURN Servers](#stun-and-turn-servers)
 * [H.323 Servers](#h.323-servers)
 * [Media Servers](#media-servers)
 * [Multi Conference Units](#multi-conference-units)
@@ -25,8 +26,9 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 * [IP PBX Software](#ip-pbx-software)
 * [IP PBX GUI Web Interfaces](#ip-pbx-gui-web-interfaces)
 * [RTP Relay](rtp-relay)
-* [Command Line Tools](#command-line-tools)
 * [Softphones](#softphones)
+* [Command Line Tools](#command-line-tools)
+* [Command Line Phones](#command-line-phones)
 * [Hardphone Brands](#hardphone-brands)
 * [Video Conference Terminals](#video-conference-terminal-brands)
 * [IP PBX Hardware Brands](#ip-ipx-hardware-brands)
@@ -37,7 +39,7 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 ## VoIP IM VC Protocols
 
 * Dundi 
-  * Voip routping protocol
+  * Voip routing protocol
   * UDP port 4520
 * H.323
   * Voip signalling protocol
@@ -59,6 +61,7 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
   * TCP port 5060 (optional)
   * TCP port 5061 (optional secure TLS)
 * SIP/SIMPLE
+* SRTP
 * STUN
 * TURN
 * XCAP
@@ -68,6 +71,7 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
   * TCP port 5223 (optional secure TLS connection)
   * TCP port 5269 (server connection)
   * SRV resource record example: _xmpp-server._tcp.example.net. 86400 IN SRV 5 0 5269 xmpp.example.net.
+* ZRTP
 
 ## Compression Codecs
 
@@ -77,10 +81,10 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 * AMR
   * NB Narrow Band
   * WB Wide Band
-* G.711 a-law
+* G.711 a-law (PCMA)
   * IDSN codec
   * Used in Europe
-* G.711 u-law
+* G.711 u-law (PCMU)
   * IDSN codec
   * Used in North America
 * G.719
@@ -154,14 +158,14 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 * [TutorialsPoint - SIP](http://www.tutorialspoint.com/session_initiation_protocol/index.htm)
 * [VoIPMechanic - SIP Basics](http://www.voipmechanic.com/sip-basics.htm)
 * [VoIP Protocols: Introducing SIP](http://toncar.cz/Tutorials/VoIP/VoIP_Protocols_Introducing_SIP.html)
-* [Terena Sip Tutorial](https://www.terena.org/activities/tf-vvc/voip-wsh/SIP-tutorial.pdf)
-* [Oracle Sip Tutorial](https://docs.oracle.com/cd/E19355-01/820-3007/gflsc/index.html)
-* [Startrinity SIP Articles](http://startrinity.com/VoIP/Resources/SipArticlesAndTutorials.aspx)
-* [Wisdomjobs SIP Tutorial](https://www.wisdomjobs.com/e-university/sip-tutorial-2185.html)
-* [MIT SIP Basics](https://web.mit.edu/sip/presentations/np119.pdf)
-* [Leonid SIP Tutorial](http://www.osslab.tw/@api/deki/files/4096/=sip.pdf)
-* [Aarnet SIP Tutorial](http://help.aarenet.com/wiki/Support_voip_protocol)
-* [Independentsoft](https://www.independentsoft.de/sip/tutorial/index.html)
+* [Terena - SIP Tutorial](https://www.terena.org/activities/tf-vvc/voip-wsh/SIP-tutorial.pdf)
+* [Oracle - SIP Tutorial](https://docs.oracle.com/cd/E19355-01/820-3007/gflsc/index.html)
+* [Startrinity - SIP Articles](http://startrinity.com/VoIP/Resources/SipArticlesAndTutorials.aspx)
+* [Wisdomjobs - SIP Tutorial](https://www.wisdomjobs.com/e-university/sip-tutorial-2185.html)
+* [MIT - SIP Basics](https://web.mit.edu/sip/presentations/np119.pdf)
+* [Leonid - SIP Tutorial](http://www.osslab.tw/@api/deki/files/4096/=sip.pdf)
+* [Aarnet - SIP Tutorial](http://help.aarenet.com/wiki/Support_voip_protocol)
+* [Independentsoft - SIP Tutorial](https://www.independentsoft.de/sip/tutorial/index.html)
 
 ## Books
 
@@ -174,26 +178,39 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 
 * [ngrep](http://ngrep.sourceforge.net/)
 * [sipcapture](http://www.sipcapture.org)
+* [sipinspector](http://www.sipinspector.com/)
 * [sipgrep](https://github.com/sipcapture/sipgrep)
+* [siptestingtool](https://clcohio.org/sip-testing-tool/)
 * [sngrep](https://github.com/irontec/sngrep)
 * [tcpdump](http://www.tcpdump.org/)
+* [Traceroute](https://packages.debian.org/stretch/traceroute)
 * [tshark](https://www.wireshark.org/docs/man-pages/tshark.html)
 * [wireshark](http://www.wireshark.org)
 
 ## SIP Servers
 
+* {Brekeke Sip Server](https://www.brekeke.com/)
 * [Kamailio](http://www.kamailio.org)
+* [Linphone Flexsip Server](https://www.linphone.org/products)
+* [OfficeSIP](https://officesip.com/index.html)
 * [Opensips](https://www.opensips.org)
 * [ReSIProcate](http://www.resiprocate.org)
+* [sipXcom](http://sipxcom.org)
+* [SipWise C5](https://www.sipwise.com/products/class-5-softswitch-carrier-grade-for-voice-over-ip/)
+* [Kaplansoft TekSIKP](https://www.kaplansoft.com/teksip/)
 * [Mobicents](http://www.mobicents.org/)
 * [MyVoipipp MiniSIPServer](https://www.myvoipapp.com/download)
-* [YXA](https://www.stacken.kth.se/project/yxa/index.html)(Legacy | Linux | SIP)
+* [YXA](https://www.stacken.kth.se/project/yxa/index.html) (Legacy | Linux | SIP)
 
 ## SIP RTP Relay
 
 * RTP Proxy
 * RTP Engine
 * Media Proxy
+
+## STUN and TURN Servers
+
+* [OfficeSIP](https://officesip.com/index.html)
 
 ## H.323 Servers
 
@@ -202,6 +219,7 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 ## Media Servers
 
 * [SEMS](https://github.com/sems-server/sems)
+* [Linphone Meadistreamer2](https://www.linphone.org/products)
 
 ## Multi Conference Units
 
@@ -210,28 +228,33 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 * i2conf (Legacy | Windows | SIP)
 * Medooze MCU (Linux | SIP)
 * Marakew MCU Server (Linux | SIP)
-* openmcu-ru (Windows, Linux | SIP, H.323)
+* OfficeSIP (Winodws, Linux | SIP)
+* Openmcu-ru (Windows, Linux | SIP, H.323)
 
 ## Selective Forwarding Units
 
 * Asterisk FSU (Linux | SIP, H.323)
 * Janus
-* Jitsi JVB (Linux | SIP)
+* Jitsi Video Bridge (Linux | XMPP)
 
 ## IP IPX Software
 
+* [3CX](https://www.3cx.com/)
+* [Askozia](https://askozia.com/)
 * [Asterisk](http://www.asterisk.org)
+* {Communigate](https://www.communigate.com/)
 * [FreeSwitch](http://www.freeswitch.org)
-* [Yate](https://www.yate.ro)
 * FusionPBX
 * Bicom Systems
 * Elastix
 * Enswitch
+* Mizutech(https://www.mizu-voip.com/Software/VoIPServer/WindowsPBX.aspx)
 * Kazoo
 * OfficeSIP
 * PCBest Networks SIP PBX
 * Pascom MobyDick
 * Thirdlane
+* [Yate](https://www.yate.ro)
 * Yeastar
 
 ## IP PBX GUI Web Interfaces
@@ -239,35 +262,56 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 * FreePBX
 * Asterisk GUI
 
-## Command Line Tools
-
-* pjsua
-* sipp
-* sipsak
-
 ## Softphones
 
+* 3CX Phone (Windows | SIP)
 * Blink (Windows, MacOS, Linux | SIP, MSRP, XCAP)
+* [Cornfed Sip User Agent](http://sipuseragent.com/)
+* Counterpath Bria and Bria Teams (Winodws, Android | SIP, XMPP)
+* SIP IP Communicator (Windows | SCCP)
 * CSIPSimple (Android | SIP)
+* Draytek Soft Phone
 * Ekiga (Windows, Linux | SIP, H.323)
+* [GNOME Empathy](https://wiki.gnome.org/Apps/Empathy) (Linux | SIP)
+* Grandstream Wave (iOS, ANdroid | SIP)
 * Jitsi (Windows, Linux | SIP, XMPP)
+* [Kaplansoft TekPhone](https://www.kaplansoft.com/tekphone/) (Windows | SIP)
 * Linphone (Windows, Linux | SIP)
 * Microsip (Windows | SIP)
-* Twinkle (Linux | SIP)
-* Twinkle (legacy | Windows | SIP)
-* wxCommunicator (Winodws | SIP)
-* Yate Client (Windows | SIP, H.323, IAX2, XMPP)
-* 3CX Phone (Windows | SIP)
-* Counterpath Bria (Winodws | SIP, XMPP)
-* Mizu Voip (Windows | SIP)
+* Mizutech (Windows | SIP)
 * OfficeSIP (Windows | SIP)
 * Polycom RealPresence Desktop (Windows | SIP, H.323)
 * Polycom Telepresence m100 (Legacy | Windows | SIP, H.323)
 * Polycom PVX (Legacy | Windows | SIP, H.323)
+* [SipDroid](http://sipdroid.org/) (Android | SIP)
 * SNOM 360 (Windows | SIP)
+* [Telephone](https://www.64characters.com/telephone/) (MacOS | SIP)
+* [tSipClent](http://tomeko.net/software/SIPclient/)
+* [Twinkle](http://twinkle.dolezel.info/) (Linux | SIP)
+* [Twinkle]((https://mfnboer.home.xs4all.nl/twinkle/) (legacy | Windows | SIP)
+* wxCommunicator (Winodws | SIP)
+* Yate Client (Windows | SIP, H.323, IAX2, XMPP)
 * Yealink Desktop VC (Windows | SIP, H.323)
 * Zoiper3 (Legacy | Windows | SIP, IAX2, XMPP)
 * Zoiper5 (Windows, Android | SIP, IAX2, XMPP)
+
+## Command Line Tools
+
+* sipp
+* sipsak
+
+## Command Line Phones
+
+* [Cornfed Sip User Agent](http://sipuseragent.com/)
+* [Linphonec] (Linux | SIP)
+* [Pjsip pjsua] (SIP)
+* [Kaplansoft SIPCLI](https://www.kaplansoft.com/SipCLI/) (Windows | SIP)
+* [openRTSP](http://www.live555.com/openRTSP/) (Linux | RTSP)
+* [sipcmd](http://sipcmd.sourceforge.net/) (Linux | SIP, H.323)
+* [sipcmd2](https://github.com/guisousanunes/sipcmd2 ( (Linux | SIP, H.323)
+* [sipsimpleclient](https://sipsimpleclient.org/testing/) (Linux | SIP)
+* [Twinkle](http://twinkle.dolezel.info/) (Linux | SIP)
+* [Twinkle]((https://mfnboer.home.xs4all.nl/twinkle/) (legacy | Windows | SIP)
 
 ## Hardphone Brands
 
@@ -317,16 +361,19 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 
 ## VoIP Libraries
 
+* Abto (SIP)
 * PJSIP (SIP)
 * BareSIP (SIP)
 * eXoSIP (SIP)
 * JAIN-SIP (SIP)
 * JsSIP (SIP)
+* Linphone Liblinphone SDK (SIP)
 * MjSIP (SIP)
 * oSIP (SIP)
 * Ozeki (SIP)
 * PjSIP (SIP)
 * ReSIProcate (SIP)
+* SIPML5 (SIP)
 * SofiaSIP (SIP)
 
 ## VoIP Forums and Sites
