@@ -1,32 +1,32 @@
 # SIP Resources
 
-A listing with some useful Video Conference, messaging and VoIP resources.
+A listing with some useful VoIP, Video Conference, and Instant Messaging resources.
 
 ## Index
 
-* [VoIP VC and IM Protocols](#voipvcim)
-* [SIP Standard Specifications](#standard-specifications)
+* [VoIP VC and IM Protocols](#voip-vc-and-im-protocols)
+* [SIP Standard Specifications](#sip-standard-specifications)
   * [SIP Core](#sip-core)
   * [SDP](#sdp)
-* [Online Tutorials](#online-tutorials)
+* [Online Tutorials](#online-voip-tutorials)
 * [Books](#books)
 * [Network Tools](#network-tools)
-* [SIP Servers](#vos-sip-servers)
-* [RTP Relay](#rtp-relay)
-* [H.323 Servers](#h323-servers)
+* [SIP Servers](#sip-servers)
+* [RTP Relay](#sip-rtp-relay)
+* [H.323 Servers](#h.323-servers)
 * [Media Servers](#media-servers)
-* [Multi Conference Units](#mcu)
-* [Selective Forwarding Units](#sfu)
-* [IP PBX Software](#v-ip-pbx)
-* [IP PBX GUI Web Interfaces](#ip-pbx-gui)
+* [Multi Conference Units](#multi-conference-units)
+* [Selective Forwarding Units](#selective-forwarding-units)
+* [IP PBX Software](#ip-pbx-software)
+* [IP PBX GUI Web Interfaces](#ip-pbx-gui-web-interfaces)
 * [RTP Relay](rtp-relay)
 * [Command Line Tools](#command-line-tools)
 * [Softphones](#softphones)
-* [Hardphone Brands](#hp-brands)
-* [Video Conference Terminals](#vct)
-* [IP PBX Harrdware Brands](#ip-ipx-hardware)
-* [Open Source VoIP Libraries](voip-libraries)
-* [VoIP Forums](#voip-forums)
+* [Hardphone Brands](#hardphone-brands)
+* [Video Conference Terminals](#video-conference-terminal-brands)
+* [IP PBX Hardware Brands](#ip-ipx-hardware-brands)
+* [VoIP Libraries](voip-libraries)
+* [VoIP Forums and Sites](#voip-forums-and-sites)
 * [RTC Events](#rtc-events)
 
 ## VoIP VC and IM Protocols
@@ -204,7 +204,7 @@ A listing with some useful Video Conference, messaging and VoIP resources.
 * Ubiquiti
 * Yealink
 
-## Video Conference Terminals
+## Video Conference Terminal Brands
 
 * Avercomm
 * Cisco/Tandberg
