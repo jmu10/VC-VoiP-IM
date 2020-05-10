@@ -4,7 +4,7 @@ A listing with some useful Video Conference, messaging and VoIP resources.
 
 ## Index
 
-* [VoIP, VoIP and IM Protocols]
+* [VoIP, VC and IM Protocols]
 * [SIP Standard Specifications](#standard-specifications)
   * [SIP Core](#sip-core)
   * [SDP](#sdp)
@@ -26,7 +26,7 @@ A listing with some useful Video Conference, messaging and VoIP resources.
 * [VoIP Forums](#voip-forums)
 * [RTC Events](#rtc-events)
 
-## VC, VoIP and IM Protocols
+## VoIP, VC and IM Protocols
 
 * [H.323]
 * [IAX2]
