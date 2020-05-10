@@ -4,7 +4,7 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 
 ## Index
 
-* [VoIP IM VC Protocols](#voip-im-vc-protocols)
+* [VoIP VC IM Protocols](#voip-im-vc-protocols)
 * [Compression Codecs](#compression-codecs)
   * [Speech Compression Codecs](#speech-compression-codecs)
   * [Video Compression Codecs](#video-compression-codecs)
@@ -36,7 +36,7 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 * [VoIP Forums and Sites](#voip-forums-and-sites)
 * [RTC Events](#rtc-events)
 
-## VoIP IM VC Protocols
+## VoIP VC IM Protocols
 
 * Dundi 
   * Voip routing protocol
@@ -240,7 +240,7 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 ## IP IPX Software
 
 * [3CX](https://www.3cx.com/)
-* [Askozia](https://askozia.com/)
+* [Askozia](https://askozia.com/) (Windows, Linux | SIP, H.323, MGCP, IAX2, SCCP, XMPP) 
 * [Asterisk](http://www.asterisk.org)
 * {Communigate](https://www.communigate.com/)
 * [FreeSwitch](http://www.freeswitch.org)
@@ -250,11 +250,11 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 * Enswitch
 * Mizutech(https://www.mizu-voip.com/Software/VoIPServer/WindowsPBX.aspx)
 * Kazoo
-* OfficeSIP
+* OfficeSIP (Windows, Linux | SIP)
 * PCBest Networks SIP PBX
 * Pascom MobyDick
 * Thirdlane
-* [Yate](https://www.yate.ro)
+* [Yate](https://www.yate.ro) (Windows, Linux | SIP, H.323, MGCP, IAX2, XMPP) 
 * Yeastar
 
 ## IP PBX GUI Web Interfaces
@@ -302,9 +302,9 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 
 ## Command Line Phones
 
-* [Cornfed Sip User Agent](http://sipuseragent.com/)
-* [Linphonec] (Linux | SIP)
-* [Pjsip pjsua] (SIP)
+* [Cornfed SIP User Agent](http://sipuseragent.com/)
+* [Linphonec] (Windows, Linux | SIP)
+* [Pjsip pjsua] (Windows, Linux | SIP)
 * [Kaplansoft SIPCLI](https://www.kaplansoft.com/SipCLI/) (Windows | SIP)
 * [openRTSP](http://www.live555.com/openRTSP/) (Linux | RTSP)
 * [sipcmd](http://sipcmd.sourceforge.net/) (Linux | SIP, H.323)
