@@ -4,7 +4,7 @@ A listing with some useful Video Conference, messaging and VoIP resources.
 
 ## Index
 
-* [VoIP, VC and IM Protocols]
+* [VoIP VC and IM Protocols](#voipvcim)
 * [SIP Standard Specifications](#standard-specifications)
   * [SIP Core](#sip-core)
   * [SDP](#sdp)
@@ -14,19 +14,22 @@ A listing with some useful Video Conference, messaging and VoIP resources.
 * [SIP Servers](#vos-sip-servers)
 * [RTP Relay](#rtp-relay)
 * [H.323 Servers](#h323-servers)
-* [Medial Servers](#media-servers)
+* [Media Servers](#media-servers)
+* [Multi Conference Units](#mcu)
+* [Selective Forwarding Units](#sfu)
 * [IP PBX Software](#v-ip-pbx)
 * [IP PBX GUI Web Interfaces](#ip-pbx-gui)
 * [RTP Relay](rtp-relay)
 * [Command Line Tools](#command-line-tools)
 * [Softphones](#softphones)
 * [Hardphone Brands](#hp-brands)
+* [Video Conference Terminals](#vct)
 * [IP PBX Harrdware Brands](#ip-ipx-hardware)
 * [Open Source VoIP Libraries](voip-libraries)
 * [VoIP Forums](#voip-forums)
 * [RTC Events](#rtc-events)
 
-## VoIP, VC and IM Protocols
+## VoIP VC and IM Protocols
 
 * [H.323]
 * [IAX2]
@@ -101,17 +104,32 @@ A listing with some useful Video Conference, messaging and VoIP resources.
 
 ## SIP RTP Relay
 
-* [RTP Proxy]
-* [RTP Engine]
-* [Media Proxy]
+* RTP Proxy
+* RTP Engine
+* Media Proxy
 
 ## H.323 Servers
 
-* [GnuGK](http://www.gnugk.org)
+* [GnuGK Gatekeeper](http://www.gnugk.org)
 
 ## Media Servers
 
 * [SEMS](https://github.com/sems-server/sems)
+
+## Multi Conference Units
+
+* Doubango Telepresence (Linux | SIP)
+* Freeswitch MCU (Linux | SIP)
+* i2conf (Legacy | Windows | SIP)
+* Medooze MCU (Linux | SIP)
+* Marakew MCU Server (Linux | SIP)
+* openmcu-ru (Windows, Linux | SIP, H.323)
+
+## Selective Forwarding Units
+
+* Asterisk FSU (Linux | SIP, H.323)
+* Janus
+* Jitsi JVB (Linux | SIP)
 
 ## IP IPX Software
 
@@ -185,6 +203,20 @@ A listing with some useful Video Conference, messaging and VoIP resources.
 * Tiptel
 * Ubiquiti
 * Yealink
+
+## Video Conference Terminals
+
+* Avercomm
+* Cisco/Tandberg
+* DCM
+* Grandstream
+* Huawei
+* LifeSize
+* Logitech
+* Polycom
+* Vaddio
+* Yealink
+* ZTE
 
 ## IP PBX Hardware Brands
 
