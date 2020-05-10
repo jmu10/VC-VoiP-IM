@@ -242,13 +242,13 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 * [3CX](https://www.3cx.com/)
 * [Askozia](https://askozia.com/) (Windows, Linux | SIP, H.323, MGCP, IAX2, SCCP, XMPP) 
 * [Asterisk](http://www.asterisk.org)
-* {Communigate](https://www.communigate.com/)
+* [Communigate](https://www.communigate.com/)
 * [FreeSwitch](http://www.freeswitch.org)
 * FusionPBX
 * Bicom Systems
 * Elastix
 * Enswitch
-* Mizutech(https://www.mizu-voip.com/Software/VoIPServer/WindowsPBX.aspx)
+* Mizutech](https://www.mizu-voip.com/Software/VoIPServer/WindowsPBX.aspx)
 * Kazoo
 * OfficeSIP (Windows, Linux | SIP)
 * PCBest Networks SIP PBX
