@@ -218,7 +218,7 @@ A listing with some useful VoIP, Video Conference, and Instant Messaging resourc
 
 ## Media Servers
 
-* [SEMS](https://github.com/sems-server/sems)
+* [SIP Expess Media Server](https://github.com/sems-server/sems)
 * [Linphone Meadistreamer2](https://www.linphone.org/products)
 
 ## Multi Conference Units
